@@ -1,0 +1,238 @@
+2020-06-23 19:33:34,968 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 8136 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 19:33:34,984 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 19:33:35,062 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-23 19:33:35,062 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-23 19:33:36,954 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 19:33:37,010 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 27ms. Found 0 JPA repository interfaces.
+2020-06-23 19:33:38,916 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 19:33:38,954 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 19:33:38,955 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 19:33:38,955 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 19:33:39,110 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 19:33:39,111 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 4048 ms
+2020-06-23 19:33:39,525 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 19:33:39,660 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 19:33:39,942 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-23 19:33:40,298 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 19:33:48,557 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 8584 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 19:33:48,561 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 19:33:48,631 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-23 19:33:48,632 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-23 19:33:50,391 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 19:33:50,441 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 33ms. Found 0 JPA repository interfaces.
+2020-06-23 19:33:51,621 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 19:33:51,629 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 19:33:51,630 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 19:33:51,630 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 19:33:51,773 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 19:33:51,773 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 3141 ms
+2020-06-23 19:33:52,001 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 19:33:52,056 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 19:33:52,233 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-23 19:33:52,356 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 19:33:52,488 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-23 19:33:52,782 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-23 19:33:52,872 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-23 19:33:53,000 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-23 19:33:53,757 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-23 19:33:53,824 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 19:33:53,891 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 19:33:53,895 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-23 19:33:53,895 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-23 19:33:53,972 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 6.584 seconds (JVM running for 8.931)
+2020-06-23 19:33:54,997 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 19:33:55,007 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 20:03:25,849 | INFO  | Thread-196:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 20:03:25,883 | INFO  | Thread-196:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 20:03:25,885 | INFO  | Thread-196:c.z.h.HikariDataSource:350 | HikariPool-1 - Shutdown initiated...
+2020-06-23 20:03:25,892 | INFO  | Thread-196:c.z.h.HikariDataSource:352 | HikariPool-1 - Shutdown completed.
+2020-06-23 20:03:26,254 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 8584 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 20:03:26,255 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 20:03:26,606 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 20:03:26,611 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-06-23 20:03:26,911 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 20:03:26,912 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 20:03:26,912 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 20:03:26,912 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 20:03:26,974 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 20:03:26,975 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 718 ms
+2020-06-23 20:03:27,060 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 20:03:27,072 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 20:03:27,079 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-2 - Starting...
+2020-06-23 20:03:27,090 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-2 - Start completed.
+2020-06-23 20:03:27,090 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-23 20:03:27,193 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-23 20:03:27,314 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 20:03:27,314 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 20:03:27,364 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-23 20:03:27,377 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 20:03:27,380 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 20:03:27,381 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-23 20:03:27,382 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-23 20:03:27,389 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.249 seconds (JVM running for 1782.348)
+2020-06-23 20:03:27,392 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-23 20:22:10,201 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 12508 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 20:22:10,211 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 20:22:10,256 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-23 20:22:10,257 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-23 20:22:11,435 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 20:22:11,467 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 24ms. Found 0 JPA repository interfaces.
+2020-06-23 20:22:12,687 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 20:22:12,696 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 20:22:12,697 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 20:22:12,697 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 20:22:12,830 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 20:22:12,830 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 2573 ms
+2020-06-23 20:22:13,172 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 20:22:13,295 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 20:22:13,479 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-23 20:22:13,906 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 20:22:14,166 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-23 20:22:14,189 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-23 20:22:14,554 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-23 20:22:14,647 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-23 20:22:14,754 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-23 20:22:14,782 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 20:22:14,818 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 20:22:14,820 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-23 20:22:14,820 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-23 20:22:14,844 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 5.721 seconds (JVM running for 8.737)
+2020-06-23 20:22:16,252 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 20:22:16,258 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 21:27:23,339 | INFO  | Thread-197:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 21:27:23,349 | INFO  | Thread-197:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 21:27:23,351 | INFO  | Thread-197:c.z.h.HikariDataSource:350 | HikariPool-1 - Shutdown initiated...
+2020-06-23 21:27:23,354 | INFO  | Thread-197:c.z.h.HikariDataSource:352 | HikariPool-1 - Shutdown completed.
+2020-06-23 21:27:23,572 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 12508 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 21:27:23,573 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 21:27:23,750 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 21:27:23,753 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-06-23 21:27:23,926 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 21:27:23,927 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 21:27:23,927 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 21:27:23,928 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 21:27:23,969 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 21:27:23,969 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 394 ms
+2020-06-23 21:27:24,026 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 21:27:24,038 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 21:27:24,043 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-2 - Starting...
+2020-06-23 21:27:24,052 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-2 - Start completed.
+2020-06-23 21:27:24,053 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-23 21:27:24,212 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 21:27:24,213 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 21:27:24,280 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-23 21:27:24,284 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-23 21:27:24,469 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 21:27:24,471 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 21:27:24,472 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-23 21:27:24,472 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-23 21:27:24,476 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 0.944 seconds (JVM running for 3918.369)
+2020-06-23 21:27:24,478 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-23 21:32:29,838 | INFO  | Thread-204:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 21:32:29,839 | INFO  | Thread-204:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 21:32:29,839 | INFO  | Thread-204:c.z.h.HikariDataSource:350 | HikariPool-2 - Shutdown initiated...
+2020-06-23 21:32:29,841 | INFO  | Thread-204:c.z.h.HikariDataSource:352 | HikariPool-2 - Shutdown completed.
+2020-06-23 21:32:30,031 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 12508 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 21:32:30,032 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 21:32:30,290 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 21:32:30,294 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-06-23 21:32:30,474 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 21:32:30,474 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 21:32:30,475 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 21:32:30,475 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 21:32:30,517 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 21:32:30,517 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 483 ms
+2020-06-23 21:32:30,583 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 21:32:30,599 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 21:32:30,606 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-3 - Starting...
+2020-06-23 21:32:30,619 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-3 - Start completed.
+2020-06-23 21:32:30,619 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-23 21:32:30,820 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 21:32:30,821 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 21:32:30,847 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-23 21:32:30,870 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-23 21:32:31,054 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 21:32:31,056 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 21:32:31,057 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-23 21:32:31,058 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-23 21:32:31,061 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.074 seconds (JVM running for 4224.954)
+2020-06-23 21:32:31,063 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-23 22:09:53,406 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 14668 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 22:09:53,438 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 22:09:53,666 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-23 22:09:53,666 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-23 22:09:55,075 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 22:09:55,117 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2020-06-23 22:09:56,426 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 22:09:56,452 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 22:09:56,453 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 22:09:56,453 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 22:09:56,605 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 22:09:56,605 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 2939 ms
+2020-06-23 22:09:57,041 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 22:09:57,155 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 22:09:57,298 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-23 22:09:57,680 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 22:09:57,887 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-23 22:09:57,912 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-23 22:09:58,324 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-23 22:09:58,385 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-23 22:09:58,805 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-23 22:09:58,869 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 22:09:58,896 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 22:09:58,897 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-23 22:09:58,898 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-23 22:09:58,918 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 6.974 seconds (JVM running for 10.233)
+2020-06-23 22:10:00,141 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 22:10:00,189 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 23:46:03,182 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 23:46:03,183 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-23 23:46:03,210 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 27 ms
+2020-06-23 23:46:03,411 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-23 23:46:03,438 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-23 23:46:03,443 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-23 23:46:03,444 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-23 23:48:25,863 | INFO  | Thread-200:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 23:48:25,882 | INFO  | Thread-200:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 23:48:25,886 | INFO  | Thread-200:c.z.h.HikariDataSource:350 | HikariPool-1 - Shutdown initiated...
+2020-06-23 23:48:25,890 | INFO  | Thread-200:c.z.h.HikariDataSource:352 | HikariPool-1 - Shutdown completed.
+2020-06-23 23:48:26,255 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 14668 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-23 23:48:26,255 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-23 23:48:26,665 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 23:48:26,670 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-06-23 23:48:26,970 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-23 23:48:26,971 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 23:48:26,971 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-23 23:48:26,971 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 23:48:27,016 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-23 23:48:27,017 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 755 ms
+2020-06-23 23:48:27,079 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 23:48:27,090 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 23:48:27,095 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-2 - Starting...
+2020-06-23 23:48:27,105 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-2 - Start completed.
+2020-06-23 23:48:27,105 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-23 23:48:27,245 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 23:48:27,246 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 23:48:27,367 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-23 23:48:27,372 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-23 23:48:27,593 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 23:48:27,596 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 23:48:27,597 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-23 23:48:27,597 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-23 23:48:27,601 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.419 seconds (JVM running for 5918.921)
+2020-06-23 23:48:27,604 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-23 23:48:32,138 | INFO  | http-nio-8080-exec-3:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 23:48:32,138 | INFO  | http-nio-8080-exec-3:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-23 23:48:32,147 | INFO  | http-nio-8080-exec-3:o.s.w.s.DispatcherServlet:547 | Completed initialization in 8 ms
+2020-06-23 23:48:32,155 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-23 23:48:32,156 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-23 23:48:32,160 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :index
+2020-06-23 23:48:32,160 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-23 23:49:07,886 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-23 23:49:07,886 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-23 23:49:07,886 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :index
+2020-06-23 23:49:07,887 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-23 23:49:40,801 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-23 23:49:40,803 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-23 23:49:40,804 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :index
+2020-06-23 23:49:40,804 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
