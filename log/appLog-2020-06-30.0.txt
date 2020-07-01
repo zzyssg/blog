@@ -1,0 +1,720 @@
+2020-06-30 01:03:25,900 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 20376 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 01:03:25,919 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 01:03:26,287 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 01:03:26,288 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 01:03:27,682 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 01:03:27,828 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 133ms. Found 4 JPA repository interfaces.
+2020-06-30 01:03:29,351 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 01:03:29,373 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:03:29,374 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 01:03:29,374 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 01:03:29,507 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 01:03:29,508 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 3220 ms
+2020-06-30 01:03:29,839 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:03:29,957 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 01:03:30,134 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 01:03:30,419 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 01:03:30,597 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 01:03:30,806 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 01:03:30,890 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 01:03:31,052 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 01:03:31,750 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 01:03:31,786 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:03:31,831 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 01:03:31,833 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 01:03:32,614 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 01:03:32,622 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:03:33,386 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 01:03:33,430 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 9.071 seconds (JVM running for 14.045)
+2020-06-30 01:03:50,479 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 01:03:50,480 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 01:03:50,496 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 15 ms
+2020-06-30 01:07:36,850 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 18372 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 01:07:36,854 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 01:07:36,993 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 01:07:36,994 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 01:07:37,577 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 01:07:37,690 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 105ms. Found 4 JPA repository interfaces.
+2020-06-30 01:07:38,463 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 01:07:38,470 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:07:38,471 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 01:07:38,471 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 01:07:38,599 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 01:07:38,600 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 1606 ms
+2020-06-30 01:07:38,803 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:07:38,867 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 01:07:38,936 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 01:07:39,102 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 01:07:39,220 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 01:07:39,345 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 01:07:39,370 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 01:07:39,444 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 01:07:40,109 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 01:07:40,131 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:07:40,152 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 01:07:40,173 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 01:07:40,320 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 01:07:40,326 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:07:40,915 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 01:07:40,924 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 4.817 seconds (JVM running for 6.5)
+2020-06-30 01:07:47,556 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 01:07:47,556 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 01:07:47,568 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 12 ms
+2020-06-30 01:18:50,514 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 3832 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 01:18:50,518 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 01:18:50,698 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 01:18:50,699 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 01:18:51,286 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 01:18:51,367 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 75ms. Found 4 JPA repository interfaces.
+2020-06-30 01:18:52,139 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 01:18:52,146 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:18:52,147 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 01:18:52,148 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 01:18:52,248 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 01:18:52,248 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 1549 ms
+2020-06-30 01:18:52,387 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:18:52,430 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 01:18:52,472 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 01:18:52,611 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 01:18:52,717 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 01:18:52,847 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 01:18:52,866 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 01:18:52,943 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 01:18:53,482 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 01:18:53,502 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:18:53,523 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 01:18:53,525 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 01:18:53,757 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 01:18:53,768 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:18:54,556 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 01:18:54,568 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 4.836 seconds (JVM running for 6.91)
+2020-06-30 01:18:58,753 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 01:18:58,754 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 01:18:58,772 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 18 ms
+2020-06-30 01:26:13,841 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 16812 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 01:26:13,850 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 01:26:14,069 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 01:26:14,069 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 01:26:14,760 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 01:26:14,837 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 71ms. Found 4 JPA repository interfaces.
+2020-06-30 01:26:15,822 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 01:26:15,831 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:26:15,833 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 01:26:15,833 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 01:26:15,946 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 01:26:15,946 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 1877 ms
+2020-06-30 01:26:16,114 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:26:16,162 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 01:26:16,212 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 01:26:16,354 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 01:26:16,456 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 01:26:16,603 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 01:26:16,622 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 01:26:16,701 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 01:26:17,270 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 01:26:17,308 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:26:17,329 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 01:26:17,331 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 01:26:17,502 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 01:26:17,509 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:26:18,200 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 01:26:18,211 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 5.334 seconds (JVM running for 7.409)
+2020-06-30 01:26:24,322 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 01:26:24,323 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 01:26:24,335 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 12 ms
+2020-06-30 01:31:07,846 | INFO  | Thread-198:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:31:07,851 | INFO  | Thread-198:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:31:07,854 | INFO  | Thread-198:c.z.h.HikariDataSource:350 | HikariPool-1 - Shutdown initiated...
+2020-06-30 01:31:07,904 | INFO  | Thread-198:c.z.h.HikariDataSource:352 | HikariPool-1 - Shutdown completed.
+2020-06-30 01:31:08,302 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 16812 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 01:31:08,303 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 01:31:08,590 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 01:31:08,620 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 28ms. Found 4 JPA repository interfaces.
+2020-06-30 01:31:08,976 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 01:31:08,977 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:31:08,977 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 01:31:08,978 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 01:31:09,017 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 01:31:09,017 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 712 ms
+2020-06-30 01:31:09,161 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:31:09,181 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 01:31:09,188 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-2 - Starting...
+2020-06-30 01:31:09,204 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-2 - Start completed.
+2020-06-30 01:31:09,205 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 01:31:09,556 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 01:31:09,557 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:31:09,881 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 01:31:09,946 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 01:31:10,361 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:31:10,364 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 01:31:10,365 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 01:31:10,671 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 01:31:10,678 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 2.418 seconds (JVM running for 299.875)
+2020-06-30 01:31:10,681 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-30 01:31:55,032 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 01:31:55,033 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 01:31:55,045 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 12 ms
+2020-06-30 01:33:11,086 | INFO  | Thread-206:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:33:11,087 | INFO  | Thread-206:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:33:11,088 | INFO  | Thread-206:c.z.h.HikariDataSource:350 | HikariPool-2 - Shutdown initiated...
+2020-06-30 01:33:11,100 | INFO  | Thread-206:c.z.h.HikariDataSource:352 | HikariPool-2 - Shutdown completed.
+2020-06-30 01:33:11,406 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 16812 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 01:33:11,407 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 01:33:11,677 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 01:33:11,725 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 47ms. Found 4 JPA repository interfaces.
+2020-06-30 01:33:12,046 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 01:33:12,047 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:33:12,048 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 01:33:12,048 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 01:33:12,092 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 01:33:12,093 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 683 ms
+2020-06-30 01:33:12,208 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 01:33:12,244 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 01:33:12,257 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-3 - Starting...
+2020-06-30 01:33:12,285 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-3 - Start completed.
+2020-06-30 01:33:12,285 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 01:33:12,588 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 01:33:12,589 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 01:33:12,830 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 01:33:12,874 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 01:33:13,179 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 01:33:13,182 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 01:33:13,183 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 01:33:13,307 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 01:33:13,307 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 01:33:13,519 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 01:33:13,525 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 218 ms
+2020-06-30 01:33:13,525 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 2.167 seconds (JVM running for 422.722)
+2020-06-30 01:33:13,529 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-30 13:01:56,737 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 13:01:56,806 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-30 13:01:56,818 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :admin/blog
+2020-06-30 13:01:56,819 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 13:02:14,923 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 13:02:14,925 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-30 13:02:14,925 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :admin/blog
+2020-06-30 13:02:14,926 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 13:02:20,250 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 13:02:20,251 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-30 13:02:20,252 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :admin/blog
+2020-06-30 13:02:20,252 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 13:04:02,374 | INFO  | Thread-395:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 13:04:02,388 | INFO  | Thread-395:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-30 13:04:02,394 | INFO  | Thread-395:c.z.h.HikariDataSource:350 | HikariPool-3 - Shutdown initiated...
+2020-06-30 13:04:02,399 | INFO  | Thread-395:c.z.h.HikariDataSource:352 | HikariPool-3 - Shutdown completed.
+2020-06-30 13:04:03,148 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 16812 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 13:04:03,149 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 13:04:03,778 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 13:04:03,824 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 44ms. Found 4 JPA repository interfaces.
+2020-06-30 13:04:04,054 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 13:04:04,054 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 13:04:04,054 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 13:04:04,055 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 13:04:04,083 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 13:04:04,083 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 921 ms
+2020-06-30 13:04:04,161 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 13:04:04,190 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 13:04:04,195 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-4 - Starting...
+2020-06-30 13:04:04,206 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-4 - Start completed.
+2020-06-30 13:04:04,206 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 13:04:04,377 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 13:04:04,377 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 13:04:04,480 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 13:04:04,509 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 13:04:04,756 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 13:04:04,758 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 13:04:04,759 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 13:04:05,154 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 13:04:05,159 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 2.074 seconds (JVM running for 41881.875)
+2020-06-30 13:04:05,161 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-30 13:04:20,188 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 13:04:20,198 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 13:04:20,210 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 12 ms
+2020-06-30 13:04:20,213 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 13:04:20,215 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[]}
+2020-06-30 13:04:20,219 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-30 13:04:20,220 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 13:31:47,878 | INFO  | Thread-584:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 13:31:47,878 | INFO  | Thread-584:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-30 13:31:47,878 | INFO  | Thread-584:c.z.h.HikariDataSource:350 | HikariPool-4 - Shutdown initiated...
+2020-06-30 13:31:47,881 | INFO  | Thread-584:c.z.h.HikariDataSource:352 | HikariPool-4 - Shutdown completed.
+2020-06-30 13:31:48,194 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 16812 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 13:31:48,194 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 13:31:48,381 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 13:31:48,403 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 21ms. Found 4 JPA repository interfaces.
+2020-06-30 13:31:48,605 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 13:31:48,606 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 13:31:48,606 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 13:31:48,606 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 13:31:48,637 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 13:31:48,637 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 441 ms
+2020-06-30 13:31:48,721 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 13:31:48,734 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 13:31:48,745 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-5 - Starting...
+2020-06-30 13:31:48,753 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-5 - Start completed.
+2020-06-30 13:31:48,753 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 13:31:49,052 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 13:31:49,290 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 13:31:49,291 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 13:31:49,299 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 13:31:49,526 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 13:31:49,528 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 13:31:49,529 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 13:31:49,630 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 13:31:49,630 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 13:31:49,822 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 13:31:49,826 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 196 ms
+2020-06-30 13:31:49,827 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.669 seconds (JVM running for 43546.544)
+2020-06-30 13:31:49,829 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-30 15:46:19,589 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 12748 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 15:46:19,602 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 15:46:19,929 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 15:46:19,930 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 15:46:21,215 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 15:46:21,421 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 135ms. Found 4 JPA repository interfaces.
+2020-06-30 15:46:23,023 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 15:46:23,040 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 15:46:23,041 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 15:46:23,042 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 15:46:23,237 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 15:46:23,237 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 3307 ms
+2020-06-30 15:46:23,561 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 15:46:23,688 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 15:46:23,801 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 15:46:24,210 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 15:46:24,428 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 15:46:24,563 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 15:46:24,734 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 15:46:24,852 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 15:46:25,556 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 15:46:25,609 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 15:46:25,670 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 15:46:25,672 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 15:46:26,402 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 15:46:26,414 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 15:46:27,483 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 15:46:27,529 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 9.136 seconds (JVM running for 12.669)
+2020-06-30 15:46:35,438 | INFO  | http-nio-8080-exec-2:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 15:46:35,438 | INFO  | http-nio-8080-exec-2:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 15:46:35,454 | INFO  | http-nio-8080-exec-2:o.s.w.s.DispatcherServlet:547 | Completed initialization in 16 ms
+2020-06-30 15:46:55,742 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:46:55,791 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:46:55,835 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:47:21,646 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:47:21,647 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:47:21,665 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:48:47,436 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 5904 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 15:48:47,439 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 15:48:47,583 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 15:48:47,583 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 15:48:48,185 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 15:48:48,255 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 64ms. Found 4 JPA repository interfaces.
+2020-06-30 15:48:48,993 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 15:48:49,001 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 15:48:49,001 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 15:48:49,002 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 15:48:49,111 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 15:48:49,112 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 1528 ms
+2020-06-30 15:48:49,256 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 15:48:49,299 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 15:48:49,342 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 15:48:49,464 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 15:48:49,566 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 15:48:49,694 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 15:48:49,713 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 15:48:49,790 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 15:48:50,438 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 15:48:50,464 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 15:48:50,488 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 15:48:50,490 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 15:48:50,649 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 15:48:50,657 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 15:48:51,526 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 15:48:51,538 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 4.836 seconds (JVM running for 6.521)
+2020-06-30 15:49:12,684 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 15:49:12,685 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 15:49:12,697 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 12 ms
+2020-06-30 15:49:12,723 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:49:12,725 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:49:12,849 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:49:12,849 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:50:02,555 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:50:02,556 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:50:02,582 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:50:02,583 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:51:46,716 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:51:46,717 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:51:46,739 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:51:46,740 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:51:48,997 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:51:48,998 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:51:49,018 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:51:49,019 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:52:03,723 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:52:03,724 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:52:03,743 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:52:03,745 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:54:48,620 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:54:48,621 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:54:48,639 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:54:48,639 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:54:56,789 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:54:56,789 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:54:56,809 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:54:56,811 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:57:49,154 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:57:49,155 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:57:49,173 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:57:49,174 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:58:07,022 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:58:07,023 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:58:07,037 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:58:07,037 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:58:23,473 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:58:23,474 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:58:23,493 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:58:23,493 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:58:33,948 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:58:33,949 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:58:33,972 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:58:33,972 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:58:47,258 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:58:47,259 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:58:47,276 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:58:47,277 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:58:57,553 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:58:57,554 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:58:57,568 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:58:57,569 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:59:31,478 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:59:31,480 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:59:31,500 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:59:31,500 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 15:59:53,548 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 15:59:53,549 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 15:59:53,570 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :index
+2020-06-30 15:59:53,571 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:33:14,663 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 17668 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 16:33:14,669 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 16:33:14,875 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 16:33:14,876 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 16:33:15,645 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 16:33:15,754 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 97ms. Found 4 JPA repository interfaces.
+2020-06-30 16:33:17,038 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 16:33:17,049 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 16:33:17,050 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 16:33:17,051 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 16:33:17,236 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 16:33:17,236 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 2360 ms
+2020-06-30 16:33:17,455 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 16:33:17,510 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 16:33:17,576 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 16:33:17,709 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 16:33:17,820 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 16:33:17,975 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 16:33:18,009 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 16:33:18,147 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 16:33:18,813 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 16:33:18,842 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 16:33:18,869 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 16:33:18,872 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 16:33:19,057 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 16:33:19,064 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 16:33:19,886 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 16:33:19,896 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 6.118 seconds (JVM running for 8.158)
+2020-06-30 16:33:31,131 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 16:33:31,131 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 16:33:31,159 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 27 ms
+2020-06-30 16:33:31,200 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:33:31,202 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 16:33:31,390 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-30 16:33:31,390 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:35:16,891 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:35:16,892 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 16:35:16,931 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :index
+2020-06-30 16:35:16,931 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:35:27,774 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:35:27,775 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, Cs]}
+2020-06-30 16:35:27,788 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:35:27,788 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:36:58,004 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:36:58,005 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 16:36:58,032 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :index
+2020-06-30 16:36:58,033 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:37:08,093 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:37:08,094 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, Cs]}
+2020-06-30 16:37:08,101 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:37:08,102 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:37:55,154 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:37:55,154 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, Cs]}
+2020-06-30 16:37:55,159 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:37:55,160 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:38:02,642 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:38:02,643 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, 消息]}
+2020-06-30 16:38:02,646 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:38:02,646 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:38:28,938 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:38:28,939 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 16:38:28,961 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :index
+2020-06-30 16:38:28,963 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:38:34,281 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:38:34,282 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, 消息]}
+2020-06-30 16:38:34,285 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:38:34,286 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:38:50,235 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:38:50,236 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, a]}
+2020-06-30 16:38:50,245 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:38:50,246 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:40:06,985 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:40:06,986 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 16:40:07,024 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :index
+2020-06-30 16:40:07,025 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:40:12,727 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:40:12,728 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, Cs]}
+2020-06-30 16:40:12,732 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:40:12,733 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:40:18,154 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:40:18,154 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/search', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.search', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, Cs]}
+2020-06-30 16:40:18,160 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :search
+2020-06-30 16:40:18,162 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 16:40:48,977 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 16:40:48,977 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 16:40:48,993 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :index
+2020-06-30 16:40:48,993 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:18:27,717 | INFO  | Thread-199:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 17:18:27,766 | INFO  | Thread-199:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-30 17:18:27,769 | INFO  | Thread-199:c.z.h.HikariDataSource:350 | HikariPool-1 - Shutdown initiated...
+2020-06-30 17:18:27,797 | INFO  | Thread-199:c.z.h.HikariDataSource:352 | HikariPool-1 - Shutdown completed.
+2020-06-30 17:18:28,234 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 17668 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 17:18:28,235 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 17:18:29,476 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 17:18:29,517 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 40ms. Found 4 JPA repository interfaces.
+2020-06-30 17:18:29,886 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 17:18:29,888 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 17:18:29,889 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 17:18:29,889 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 17:18:29,961 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 17:18:29,961 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 1715 ms
+2020-06-30 17:18:30,068 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 17:18:30,091 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 17:18:30,101 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-2 - Starting...
+2020-06-30 17:18:30,116 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-2 - Start completed.
+2020-06-30 17:18:30,123 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 17:18:30,460 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 17:18:30,460 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 17:18:30,576 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 17:18:30,652 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 17:18:31,044 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 17:18:31,048 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 17:18:31,049 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 17:18:31,969 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 17:18:31,976 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 3.82 seconds (JVM running for 2720.239)
+2020-06-30 17:18:31,980 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-06-30 17:18:47,803 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 17:18:47,804 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 17:18:47,820 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 15 ms
+2020-06-30 17:18:47,825 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:18:47,826 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 17:18:47,886 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-30 17:18:47,887 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:18:54,196 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:18:54,196 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[2, {}]}
+2020-06-30 17:18:54,249 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:18:54,249 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:20:03,379 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:20:03,379 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[2, {}]}
+2020-06-30 17:20:03,382 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:20:03,383 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:24:33,715 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:24:33,716 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[2, {}]}
+2020-06-30 17:24:33,719 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:24:33,720 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:25:18,862 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:25:18,863 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[2, {}]}
+2020-06-30 17:25:18,866 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:25:18,867 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:25:24,418 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:25:24,418 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[2, {}]}
+2020-06-30 17:25:24,422 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:25:24,422 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:25:47,292 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:25:47,293 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/18', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[18, {}]}
+2020-06-30 17:25:47,297 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:25:47,297 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:25:50,212 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:25:50,213 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/18', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[18, {}]}
+2020-06-30 17:25:50,215 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:25:50,215 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:55:08,253 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 1184 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 17:55:08,268 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 17:55:08,724 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 17:55:08,724 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 17:55:10,130 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 17:55:10,322 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 144ms. Found 4 JPA repository interfaces.
+2020-06-30 17:55:12,080 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 17:55:12,096 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 17:55:12,097 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 17:55:12,098 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 17:55:12,282 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 17:55:12,286 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 3561 ms
+2020-06-30 17:55:12,690 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 17:55:12,814 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 17:55:12,984 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 17:55:13,427 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 17:55:13,703 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 17:55:13,939 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 17:55:14,110 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 17:55:14,276 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 17:55:15,406 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 17:55:15,490 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 17:55:15,589 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 17:55:15,592 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 17:55:16,476 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 17:55:16,490 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 17:55:17,866 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 17:55:17,914 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 11.018 seconds (JVM running for 14.055)
+2020-06-30 17:55:31,958 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 17:55:31,958 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 17:55:31,972 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 14 ms
+2020-06-30 17:55:32,010 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:55:32,020 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 17:55:32,296 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-30 17:55:32,297 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:55:40,116 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:55:40,116 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-06-30 17:55:40,245 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:55:40,246 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 17:56:00,603 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 17:56:00,604 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/18', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[18, {}]}
+2020-06-30 17:56:00,619 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :blog
+2020-06-30 17:56:00,619 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:01:31,884 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:01:31,885 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:01:31,907 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:01:31,907 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:01:36,197 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:01:36,198 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-06-30 18:01:36,215 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :blog
+2020-06-30 18:01:36,215 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:04:38,100 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:04:38,101 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/18', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[18, {}]}
+2020-06-30 18:04:38,114 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :blog
+2020-06-30 18:04:38,115 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:08:28,547 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:08:28,548 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-06-30 18:08:28,556 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :blog
+2020-06-30 18:08:28,557 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:08:44,186 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:08:44,187 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-06-30 18:08:44,198 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :blog
+2020-06-30 18:08:44,199 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:09:39,840 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:09:39,841 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-06-30 18:09:39,851 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :blog
+2020-06-30 18:09:39,852 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:09:52,063 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:09:52,064 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:09:52,083 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:09:52,083 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:10:19,561 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:10:19,561 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:10:19,577 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:10:19,577 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:13:30,055 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 26632 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 18:13:30,071 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 18:13:30,389 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 18:13:30,390 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 18:13:31,382 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 18:13:31,511 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 117ms. Found 4 JPA repository interfaces.
+2020-06-30 18:13:32,649 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 18:13:32,658 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 18:13:32,658 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 18:13:32,659 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 18:13:32,786 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 18:13:32,786 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 2396 ms
+2020-06-30 18:13:33,024 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 18:13:33,083 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 18:13:33,165 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 18:13:33,454 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 18:13:33,610 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 18:13:33,731 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 18:13:33,888 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 18:13:33,950 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 18:13:34,526 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 18:13:34,549 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 18:13:34,585 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 18:13:34,587 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 18:13:35,201 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 18:13:35,209 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 18:13:35,928 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 18:13:35,944 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 6.924 seconds (JVM running for 9.456)
+2020-06-30 18:13:50,370 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 18:13:50,370 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 18:13:50,381 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 11 ms
+2020-06-30 18:13:50,422 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:13:50,424 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:13:50,592 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:13:50,593 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:14:39,838 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:14:39,838 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:14:39,859 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:14:39,860 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:15:00,705 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:15:00,706 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:15:00,721 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:15:00,722 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:20:16,127 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 16356 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-06-30 18:20:16,131 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-06-30 18:20:16,341 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-30 18:20:16,342 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-30 18:20:17,021 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 18:20:17,105 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 76ms. Found 4 JPA repository interfaces.
+2020-06-30 18:20:17,932 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-06-30 18:20:17,939 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-30 18:20:17,940 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-06-30 18:20:17,940 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 18:20:18,063 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-06-30 18:20:18,063 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 1721 ms
+2020-06-30 18:20:18,239 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 18:20:18,282 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 18:20:18,326 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 18:20:18,444 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 18:20:18,554 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-06-30 18:20:18,678 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-06-30 18:20:18,693 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-30 18:20:18,768 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-06-30 18:20:19,556 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-06-30 18:20:19,581 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-06-30 18:20:19,614 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-30 18:20:19,616 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-06-30 18:20:19,804 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 18:20:20,106 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 18:20:20,137 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 18:20:20,137 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-06-30 18:20:20,343 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 206 ms
+2020-06-30 18:20:20,385 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:20:20,389 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:20:20,860 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-06-30 18:20:20,872 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 5.48 seconds (JVM running for 7.046)
+2020-06-30 18:20:21,041 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:20:21,042 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:20:53,707 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:20:53,708 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:20:53,725 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:20:53,726 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:21:11,921 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:21:11,921 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:21:11,956 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:21:11,956 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:21:48,996 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:21:48,997 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:21:49,013 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:21:49,013 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:21:58,949 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:21:58,949 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-06-30 18:21:58,970 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :index
+2020-06-30 18:21:58,971 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-06-30 18:22:09,086 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-06-30 18:22:09,089 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-06-30 18:22:09,221 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :blog
+2020-06-30 18:22:09,222 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________

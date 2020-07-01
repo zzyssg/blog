@@ -1,0 +1,533 @@
+2020-07-02 00:01:58,891 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 00:01:58,892 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-07-02 00:01:58,903 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 11 ms
+2020-07-02 00:01:58,926 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:01:58,928 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:01:58,931 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:01:58,936 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:01:59,713 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:01:59,714 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:01:59,815 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :about :: newBlogList
+2020-07-02 00:01:59,815 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:04:34,095 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:04:34,096 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:04:34,096 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:04:34,096 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:04:34,475 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:04:34,476 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:04:34,482 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :about :: newBlogList
+2020-07-02 00:04:34,483 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:05:47,811 | INFO  | Thread-201:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:05:47,814 | INFO  | Thread-201:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:05:47,815 | INFO  | Thread-201:c.z.h.HikariDataSource:350 | HikariPool-1 - Shutdown initiated...
+2020-07-02 00:05:47,823 | INFO  | Thread-201:c.z.h.HikariDataSource:352 | HikariPool-1 - Shutdown completed.
+2020-07-02 00:05:48,112 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 18052 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-07-02 00:05:48,112 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-07-02 00:05:48,317 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 00:05:48,345 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 27ms. Found 5 JPA repository interfaces.
+2020-07-02 00:05:48,550 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-07-02 00:05:48,550 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:05:48,551 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-07-02 00:05:48,551 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 00:05:48,594 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-07-02 00:05:48,594 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 480 ms
+2020-07-02 00:05:48,668 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:05:48,682 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 00:05:48,688 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-2 - Starting...
+2020-07-02 00:05:48,699 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-2 - Start completed.
+2020-07-02 00:05:48,700 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-02 00:05:48,908 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 00:05:48,909 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:05:49,087 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-07-02 00:05:49,117 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-07-02 00:05:49,355 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:05:49,358 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 00:05:49,358 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-07-02 00:05:49,697 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-07-02 00:05:49,701 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.621 seconds (JVM running for 544.267)
+2020-07-02 00:05:49,702 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-07-02 00:06:09,100 | INFO  | http-nio-8080-exec-2:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 00:06:09,101 | INFO  | http-nio-8080-exec-2:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-07-02 00:06:09,111 | INFO  | http-nio-8080-exec-2:o.s.w.s.DispatcherServlet:547 | Completed initialization in 10 ms
+2020-07-02 00:06:09,114 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:06:09,115 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:06:09,118 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:06:09,119 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:06:09,477 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:06:09,478 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:06:09,504 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:06:09,504 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:14:05,822 | INFO  | Thread-211:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:14:05,823 | INFO  | Thread-211:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:14:05,823 | INFO  | Thread-211:c.z.h.HikariDataSource:350 | HikariPool-2 - Shutdown initiated...
+2020-07-02 00:14:05,836 | INFO  | Thread-211:c.z.h.HikariDataSource:352 | HikariPool-2 - Shutdown completed.
+2020-07-02 00:14:06,153 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 18052 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-07-02 00:14:06,153 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-07-02 00:14:06,678 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 00:14:06,751 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 72ms. Found 5 JPA repository interfaces.
+2020-07-02 00:14:07,295 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-07-02 00:14:07,296 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:14:07,296 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-07-02 00:14:07,296 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 00:14:07,323 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-07-02 00:14:07,323 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 1168 ms
+2020-07-02 00:14:07,385 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:14:07,398 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 00:14:07,403 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-3 - Starting...
+2020-07-02 00:14:07,408 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-3 - Start completed.
+2020-07-02 00:14:07,409 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-02 00:14:07,549 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 00:14:07,550 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:14:07,594 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-07-02 00:14:07,723 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-07-02 00:14:08,067 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:14:08,070 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 00:14:08,070 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-07-02 00:14:08,519 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-07-02 00:14:08,526 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 2.405 seconds (JVM running for 1043.093)
+2020-07-02 00:14:08,530 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-07-02 00:14:11,485 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 00:14:11,485 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-07-02 00:14:11,496 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 10 ms
+2020-07-02 00:14:11,498 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:14:11,501 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:14:11,504 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:14:11,504 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:14:11,904 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:14:11,905 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:14:11,929 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:14:11,930 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:14:51,305 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:14:51,306 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:14:51,307 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:14:51,307 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:14:51,674 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:14:51,675 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:14:51,685 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:14:51,685 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:15:03,514 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 3196 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-07-02 00:15:03,533 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-07-02 00:15:03,793 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-02 00:15:03,793 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:225 | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-02 00:15:04,608 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 00:15:04,693 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 76ms. Found 5 JPA repository interfaces.
+2020-07-02 00:15:05,789 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-07-02 00:15:05,799 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:15:05,800 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-07-02 00:15:05,800 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 00:15:06,011 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-07-02 00:15:06,011 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 2218 ms
+2020-07-02 00:15:06,305 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:15:06,378 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 00:15:06,470 | INFO  | task-1:o.h.Version:44 | HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-02 00:15:06,766 | INFO  | task-1:o.h.a.c.Version:49 | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-02 00:15:07,066 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-1 - Starting...
+2020-07-02 00:15:07,197 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-07-02 00:15:07,383 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-1 - Start completed.
+2020-07-02 00:15:07,460 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-02 00:15:08,364 | INFO  | restartedMain:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-07-02 00:15:08,391 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:15:08,440 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 00:15:08,442 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-07-02 00:15:09,225 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 00:15:09,249 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:15:10,183 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-07-02 00:15:10,190 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 7.701 seconds (JVM running for 10.247)
+2020-07-02 00:15:14,393 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 00:15:14,394 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-07-02 00:15:14,407 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 13 ms
+2020-07-02 00:15:14,432 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:15:14,434 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:15:14,438 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:15:14,438 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:15:15,221 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:15:15,222 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:15:15,309 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:15:15,309 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:16:50,317 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:16:50,318 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:16:50,319 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:16:50,320 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:16:50,755 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:16:50,756 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:16:50,814 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:16:50,814 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:17:04,185 | INFO  | Thread-202:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:17:04,189 | INFO  | Thread-202:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:17:04,192 | INFO  | Thread-202:c.z.h.HikariDataSource:350 | HikariPool-1 - Shutdown initiated...
+2020-07-02 00:17:04,200 | INFO  | Thread-202:c.z.h.HikariDataSource:352 | HikariPool-1 - Shutdown completed.
+2020-07-02 00:17:04,465 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 3196 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-07-02 00:17:04,466 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-07-02 00:17:04,826 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 00:17:04,866 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 38ms. Found 5 JPA repository interfaces.
+2020-07-02 00:17:05,140 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-07-02 00:17:05,140 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:17:05,141 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-07-02 00:17:05,141 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 00:17:05,174 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-07-02 00:17:05,174 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 706 ms
+2020-07-02 00:17:05,236 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:17:05,255 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 00:17:05,265 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-2 - Starting...
+2020-07-02 00:17:05,278 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-2 - Start completed.
+2020-07-02 00:17:05,279 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-02 00:17:05,482 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 00:17:05,482 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:17:05,662 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-07-02 00:17:05,666 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-07-02 00:17:05,872 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:17:05,883 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 00:17:05,885 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-07-02 00:17:06,219 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-07-02 00:17:06,223 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.794 seconds (JVM running for 126.28)
+2020-07-02 00:17:06,224 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-07-02 00:17:10,454 | INFO  | http-nio-8080-exec-2:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 00:17:10,455 | INFO  | http-nio-8080-exec-2:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-07-02 00:17:10,465 | INFO  | http-nio-8080-exec-2:o.s.w.s.DispatcherServlet:547 | Completed initialization in 9 ms
+2020-07-02 00:17:10,466 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:17:10,467 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:17:10,470 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:17:10,470 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:17:10,943 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:17:10,944 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:17:10,966 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:17:10,967 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:02,859 | INFO  | Thread-213:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:25:02,859 | INFO  | Thread-213:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:25:02,860 | INFO  | Thread-213:c.z.h.HikariDataSource:350 | HikariPool-2 - Shutdown initiated...
+2020-07-02 00:25:02,866 | INFO  | Thread-213:c.z.h.HikariDataSource:352 | HikariPool-2 - Shutdown completed.
+2020-07-02 00:25:03,193 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 3196 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-07-02 00:25:03,194 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-07-02 00:25:03,459 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 00:25:03,503 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 44ms. Found 5 JPA repository interfaces.
+2020-07-02 00:25:03,710 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-07-02 00:25:03,712 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:25:03,712 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-07-02 00:25:03,712 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 00:25:03,742 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-07-02 00:25:03,743 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 546 ms
+2020-07-02 00:25:03,804 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:25:03,818 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 00:25:03,823 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-3 - Starting...
+2020-07-02 00:25:03,833 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-3 - Start completed.
+2020-07-02 00:25:03,833 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-02 00:25:03,977 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 00:25:03,978 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:25:04,119 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-07-02 00:25:04,151 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-07-02 00:25:04,366 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:25:04,368 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 00:25:04,369 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-07-02 00:25:04,689 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-07-02 00:25:04,692 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.556 seconds (JVM running for 604.75)
+2020-07-02 00:25:04,693 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-07-02 00:25:18,942 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 00:25:18,943 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-07-02 00:25:18,954 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 11 ms
+2020-07-02 00:25:18,961 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:18,964 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:25:19,205 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:25:19,205 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:19,973 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:19,974 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:25:19,991 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:25:19,992 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:26,165 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:26,166 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.TypeShowController.types', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, -1]}
+2020-07-02 00:25:26,256 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :types
+2020-07-02 00:25:26,257 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:26,664 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:26,665 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:25:26,669 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:25:26,670 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:28,669 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:28,669 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.ArchiveShowController.archives', args=[{}]}
+2020-07-02 00:25:28,879 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :archives
+2020-07-02 00:25:28,880 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:29,249 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:29,249 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:25:29,253 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:25:29,253 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:30,703 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:30,703 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.AboutShowController.about', args=[]}
+2020-07-02 00:25:30,733 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :about
+2020-07-02 00:25:30,734 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:31,103 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:31,103 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:25:31,109 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:25:31,109 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:34,801 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:34,802 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:25:34,826 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:25:34,827 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:25:35,347 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:25:35,347 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:25:35,353 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:25:35,353 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:27:51,420 | INFO  | Thread-403:o.s.o.j.LocalContainerEntityManagerFactoryBean:598 | Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:27:51,421 | INFO  | Thread-403:o.s.s.c.ThreadPoolTaskExecutor:218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:27:51,421 | INFO  | Thread-403:c.z.h.HikariDataSource:350 | HikariPool-3 - Shutdown initiated...
+2020-07-02 00:27:51,425 | INFO  | Thread-403:c.z.h.HikariDataSource:352 | HikariPool-3 - Shutdown completed.
+2020-07-02 00:27:51,766 | INFO  | restartedMain:c.z.BlogApplication:55 | Starting BlogApplication on zzy with PID 3196 (D:\Java\JAVA_Projects\blog\target\classes started by zzy in D:\Java\JAVA_Projects\blog)
+2020-07-02 00:27:51,767 | INFO  | restartedMain:c.z.BlogApplication:655 | The following profiles are active: dev
+2020-07-02 00:27:52,051 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:127 | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 00:27:52,139 | INFO  | restartedMain:o.s.d.r.c.RepositoryConfigurationDelegate:187 | Finished Spring Data repository scanning in 33ms. Found 5 JPA repository interfaces.
+2020-07-02 00:27:52,375 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2020-07-02 00:27:52,375 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:27:52,376 | INFO  | restartedMain:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2020-07-02 00:27:52,376 | INFO  | restartedMain:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 00:27:52,406 | INFO  | restartedMain:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2020-07-02 00:27:52,406 | INFO  | restartedMain:o.s.b.w.s.c.ServletWebServerApplicationContext:285 | Root WebApplicationContext: initialization completed in 638 ms
+2020-07-02 00:27:52,476 | INFO  | restartedMain:o.s.s.c.ThreadPoolTaskExecutor:181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 00:27:52,492 | INFO  | task-1:o.h.j.i.u.LogHelper:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 00:27:52,499 | INFO  | task-1:c.z.h.HikariDataSource:110 | HikariPool-4 - Starting...
+2020-07-02 00:27:52,510 | INFO  | task-1:c.z.h.HikariDataSource:123 | HikariPool-4 - Start completed.
+2020-07-02 00:27:52,510 | INFO  | task-1:o.h.d.Dialect:172 | HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-02 00:27:52,675 | INFO  | task-1:o.h.e.t.j.p.i.JtaPlatformInitiator:52 | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 00:27:52,676 | INFO  | task-1:o.s.o.j.LocalContainerEntityManagerFactoryBean:416 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 00:27:52,714 | INFO  | task-2:o.s.b.d.a.OptionalLiveReloadServer:58 | LiveReload server is running on port 35729
+2020-07-02 00:27:52,871 | INFO  | restartedMain:o.s.b.a.w.s.WelcomePageHandlerMapping:58 | Adding welcome page template: index
+2020-07-02 00:27:53,119 | INFO  | restartedMain:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2020-07-02 00:27:53,121 | INFO  | restartedMain:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 00:27:53,122 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:49 | Triggering deferred initialization of Spring Data repositories…
+2020-07-02 00:27:53,484 | INFO  | restartedMain:o.s.d.r.c.DeferredRepositoryInitializationListener:53 | Spring Data repositories initialized!
+2020-07-02 00:27:53,488 | INFO  | restartedMain:c.z.BlogApplication:61 | Started BlogApplication in 1.76 seconds (JVM running for 773.546)
+2020-07-02 00:27:53,490 | INFO  | restartedMain:o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 | Condition evaluation unchanged
+2020-07-02 00:27:57,600 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 00:27:57,601 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2020-07-02 00:27:57,608 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 7 ms
+2020-07-02 00:27:57,613 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:27:57,617 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:27:57,685 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:27:57,685 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:27:58,786 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:27:58,802 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:27:58,823 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:27:58,823 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:28:14,301 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:28:14,301 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:28:14,319 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:28:14,320 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:28:14,765 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:28:14,766 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:28:14,770 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:28:14,771 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:29:25,542 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:29:25,544 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:29:25,562 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:29:25,563 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:29:26,020 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:29:26,020 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:29:26,024 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:29:26,024 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:34:15,919 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:34:15,920 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:34:15,932 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:34:15,932 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:34:16,382 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:34:16,382 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:34:16,388 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:34:16,389 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:34:22,009 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:34:22,009 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.TypeShowController.types', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, -1]}
+2020-07-02 00:34:22,019 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :types
+2020-07-02 00:34:22,020 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:34:22,457 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:34:22,458 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:34:22,460 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:34:22,461 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:03,210 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:03,211 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:43:03,226 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:43:03,227 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:03,653 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:03,654 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:43:03,657 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:43:03,657 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:14,816 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:14,819 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/19', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[19, {}]}
+2020-07-02 00:43:15,113 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:43:15,113 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:15,562 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:15,562 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:43:15,575 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:43:15,576 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:15,817 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:15,818 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/comments/19', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.CommentController.comments', args=[19, {}]}
+2020-07-02 00:43:15,891 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :blog :: commentList
+2020-07-02 00:43:15,892 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:31,986 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:31,986 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/18', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[18, {}]}
+2020-07-02 00:43:31,999 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:43:32,000 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:32,415 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:32,416 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:43:32,434 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:43:32,435 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:32,581 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:32,581 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/comments/18', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.CommentController.comments', args=[18, {}]}
+2020-07-02 00:43:32,597 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :blog :: commentList
+2020-07-02 00:43:32,598 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:43:41,284 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:43:41,285 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/2', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[2, {}]}
+2020-07-02 00:43:41,294 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:16,923 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:16,924 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:47:16,938 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:47:16,938 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:17,310 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:17,311 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:47:17,314 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:47:17,314 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:18,504 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:18,505 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-07-02 00:47:18,513 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:47:18,514 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:18,876 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:18,877 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:47:18,881 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:47:18,882 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:23,578 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:23,578 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/1', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[1, {}]}
+2020-07-02 00:47:23,585 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:47:23,586 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:23,959 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:23,959 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:47:23,962 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:47:23,963 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:24,037 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:24,038 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/comments/1', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.CommentController.comments', args=[1, {}]}
+2020-07-02 00:47:24,043 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :blog :: commentList
+2020-07-02 00:47:24,044 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:45,691 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:45,691 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/20', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[20, {}]}
+2020-07-02 00:47:45,699 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:47:45,699 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:46,092 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:46,092 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:47:46,100 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:47:46,100 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:50,607 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:50,607 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/3', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[3, {}]}
+2020-07-02 00:47:50,614 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:47:50,614 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:50,936 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:50,936 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:47:50,939 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:47:50,939 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:55,473 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:55,473 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/18', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[18, {}]}
+2020-07-02 00:47:55,484 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:47:55,485 | INFO  | http-nio-8080-exec-8:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:47:55,890 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:47:55,891 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:47:55,899 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:47:55,900 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:48:04,805 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:48:04,805 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/19', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[19, {}]}
+2020-07-02 00:48:04,820 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:48:04,820 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:48:05,249 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:48:05,249 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:48:05,253 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:48:05,253 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:03,885 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:03,886 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:53:03,898 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:53:03,899 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:04,255 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:04,255 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:53:04,257 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:53:04,258 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:10,132 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:10,133 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:53:10,141 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:53:10,141 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:10,471 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:10,471 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:53:10,475 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:53:10,475 | INFO  | http-nio-8080-exec-10:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:11,303 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:11,304 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 1, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:53:11,310 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:53:11,310 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:11,628 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:11,628 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:53:11,634 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:53:11,635 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:13,722 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:13,723 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/21', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[21, {}]}
+2020-07-02 00:53:13,734 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:53:13,734 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:14,093 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:14,093 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:53:14,098 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:53:14,099 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:37,210 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:37,213 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:53:37,234 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:53:37,235 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:37,918 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:37,919 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:53:37,923 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:53:37,923 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:39,186 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:39,186 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-07-02 00:53:39,199 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:53:39,200 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:53:39,889 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:53:39,891 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:53:39,900 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:53:39,901 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:54:02,163 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:54:02,163 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[22, {}]}
+2020-07-02 00:54:02,170 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:54:02,171 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:54:02,510 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:54:02,511 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:54:02,553 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:54:02,553 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:54:02,624 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:54:02,624 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/comments/22', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.CommentController.comments', args=[22, {}]}
+2020-07-02 00:54:02,635 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:47 | object :blog :: commentList
+2020-07-02 00:54:02,635 | INFO  | http-nio-8080-exec-1:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:55:34,783 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:55:34,783 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:55:34,806 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:55:34,808 | INFO  | http-nio-8080-exec-9:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:55:35,308 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:55:35,308 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:55:35,311 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:55:35,311 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:55:51,837 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:55:51,838 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.index', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}]}
+2020-07-02 00:55:51,846 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :index
+2020-07-02 00:55:51,846 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:55:52,203 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:55:52,204 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:55:52,209 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:55:52,209 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:56:19,344 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:56:19,344 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.TypeShowController.types', args=[Page request [number: 0, size 7, sort: updateTime: DESC], {}, -1]}
+2020-07-02 00:56:19,349 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:47 | object :types
+2020-07-02 00:56:19,351 | INFO  | http-nio-8080-exec-4:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:56:19,953 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:56:19,953 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:56:19,957 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:56:19,958 | INFO  | http-nio-8080-exec-3:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:56:22,544 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:56:22,544 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.ArchiveShowController.archives', args=[{}]}
+2020-07-02 00:56:22,559 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:47 | object :archives
+2020-07-02 00:56:22,559 | INFO  | http-nio-8080-exec-6:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:56:22,963 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:56:22,964 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:56:22,966 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:56:22,967 | INFO  | http-nio-8080-exec-2:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:56:36,281 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:56:36,282 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/blog/21', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.blog', args=[21, {}]}
+2020-07-02 00:56:36,296 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:47 | object :blog
+2020-07-02 00:56:36,297 | INFO  | http-nio-8080-exec-7:c.z.a.LogAspect:42 | _______doAfter________
+2020-07-02 00:56:36,621 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:27 | _____doBefore_____
+2020-07-02 00:56:36,622 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:36 | requestLog : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMathod='com.zzy.web.IndexController.newBlogList', args=[{}]}
+2020-07-02 00:56:36,626 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:47 | object :_fragments :: newBlogList
+2020-07-02 00:56:36,626 | INFO  | http-nio-8080-exec-5:c.z.a.LogAspect:42 | _______doAfter________

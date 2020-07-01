@@ -11,7 +11,7 @@
 </nav>
 
 <!--中间内容-->
-<div class="m-container m-padded-tb-large">
+<div class="m-container m-padded-tb-large animated fadeIn">
     <div class="ui container">
         <div class="ui  stackable grid">
             <!--左边的博客列表-->
@@ -23,49 +23,50 @@
                             <h3 class="ui teal header">博客</h3>
                         </div>
                         <div class="column right aligned m-text-spaced-massive">
-                            共<h3 class="ui orange header m-inline-block">14</h3>篇
+                            共<h3 class="ui orange header m-inline-block" th:text="${page.totalElements}">14</h3>篇
                         </div>
                     </div>
                 </div>
 
                 <!--content-->
-                <div class="ui attached segment">
-                    <div class="ui padded vertical segment m-padded-tb-big">
-                        <div class="ui mobile reversed stackable grid">
+                <div class="ui attached segment" >
+                    <div class="ui padded vertical segment m-padded-tb-big" th:each="blog : ${page.content}">
+                        <div class="ui middle aligned mobile reversed stackable grid">
                             <div class="eleven wide column">
-                                <h3>为什么用消息队列</h3>
-                                <p class="m-text">消息被重复消费：正常情况下，消费者在消费消息的时候，消费完毕后会发送一个确认消息给消息队列，消息队列就会删除该消息；但是有时由于网络传输时发生故障，
+                                <h3 class="ui header"><a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black"  th:text="${blog.title}">为什么用消息队列</a></h3>
+                                <p class="m-text" th:text="|${blog.description}......|">消息被重复消费：正常情况下，消费者在消费消息的时候，消费完毕后会发送一个确认消息给消息队列，消息队列就会删除该消息；但是有时由于网络传输时发生故障，
                                     导致确认信息没有发送到消息队列，导致消息队列不知道此条消息已经被消费了，于是再次将此条消息发送给其他的消费者，</p>
                                 <div class="ui grid">
                                     <div class="eleven wide column">
                                         <div class="ui mini horizontal link list">
                                             <div class="item">
-                                                <img src="https://picsum.photos/seed/picsum/800/400" alt="" class="ui avatar image">
+                                                <img src="https://picsum.photos/seed/picsum/800/400" th:src="@{${blog.user.avatar}}" alt="" class="ui avatar image">
                                                 <div class="content">
-                                                    <a href="#" class="header">长泽雅美</a>
+                                                    <a href="#" class="header" th:href="${blog.user.nickname}">长泽雅美</a>
                                                 </div>
                                             </div>
                                             <div class="item">
-                                                <i class="calendar icon"></i>2020.5.20
+                                                <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2020.5.20</span>
                                             </div>
                                             <div class="item">
-                                                <i class="eye icon"></i>5201314
+                                                <i class="eye icon"></i><span th:text="${blog.views}">5201314</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="five wide column">
-                                        <a href="#" target="_blank" class="ui basic teal label m-padded-mini m-text-thin">认知升级</a>
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui basic teal label m-padded-mini m-text-thin" th:text="${blog.type.name}">认知升级</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="five wide column">
-                                <a href="#" target="_blank">
-                                    <img src="https://picsum.photos/seed/picsum/800/400" alt="" class="ui rounded image">
+                                <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
+                                    <img src="https://picsum.photos/seed/picsum/800/400" th:src="@{${blog.firstPicture}}" alt="" class="ui rounded image">
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="ui padded vertical segment m-padded-tb-big">
+                    <!--/*-->
+                    <div class="ui middle aligned padded vertical segment m-padded-tb-big">
                         <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3>为什么用消息队列</h3>
@@ -100,7 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ui padded vertical segment m-padded-tb-big">
+                    <div class="ui middle aligned padded vertical segment m-padded-tb-big">
                         <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3>为什么用消息队列</h3>
@@ -123,7 +124,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="five wide column">
+                                    <div class="right aligned five wide column">
                                         <a href="#" target="_blank" class="ui basic teal label m-padded-mini m-text-thin">认知升级</a>
                                     </div>
                                 </div>
@@ -135,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ui padded vertical segment m-padded-tb-big">
+                    <div class="ui middle aligned padded vertical segment m-padded-tb-big">
                         <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3>为什么用消息队列</h3>
@@ -158,7 +159,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="five wide column">
+                                    <div class="right aligned five wide column">
                                         <a href="#" target="_blank" class="ui basic teal label m-padded-mini m-text-thin">认知升级</a>
                                     </div>
                                 </div>
@@ -170,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ui padded vertical segment m-padded-tb-big">
+                    <div class="ui middle aligned padded vertical segment m-padded-tb-big">
                         <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3>为什么用消息队列</h3>
@@ -193,7 +194,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="five wide column">
+                                    <div class="right aligned five wide column">
                                         <a href="#" target="_blank" class="ui basic teal label m-padded-mini m-text-thin">认知升级</a>
                                     </div>
                                 </div>
@@ -205,7 +206,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ui padded vertical segment m-padded-tb-big">
+                    <div class="ui middle aligned padded vertical segment m-padded-tb-big">
                         <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column">
                                 <h3>为什么用消息队列</h3>
@@ -228,7 +229,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="five wide column">
+                                    <div class="right aligned five wide column">
                                         <a href="#" target="_blank" class="ui basic teal label m-padded-mini m-text-thin">认知升级</a>
                                     </div>
                                 </div>
@@ -240,19 +241,21 @@
                             </div>
                         </div>
                     </div>
+                    <!--*/-->
+
 
 
 
                 </div>
 
                 <!--foot-->
-                <div class="ui bottom attached segment">
-                    <div class="ui middle aligned two column grid">
+                <div class="ui bottom attached segment" th:if="${page.totalPages} > 1">
+                    <div class="ui middle aligned two column grid" >
                         <div class="column">
-                            <a href="#" class="ui basic teal button">上一页</a>
+                            <a th:href="@{/(page=${page.number}-1)}" th:unless="${page.first}" class="ui basic teal button">上一页</a>
                         </div>
                         <div class="right aligned column">
-                            <a href="#" class="ui basic mini teal button">下一页</a>
+                            <a th:href="@{/(page=${page.number}+1)}" th:unless="${page.last}" class="ui basic teal button">下一页</a>
                         </div>
                     </div>
                 </div>
@@ -268,12 +271,17 @@
                                 <i class="idea icon"></i>分类
                             </div>
                             <div class="column">
-                                <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                                <a href="#" th:href="@{/types/-1}" target="_blank">more<i class="angle double right icon"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="ui teal segment">
-                        <div class="ui fluid vertical menu">
+                        <div class="ui fluid vertical menu" >
+                            <a href="#" th:href="@{/types/{id}(id=${type.id})}" target="_blank" class="item" th:each="type : ${types}">
+                                <span th:text="${type.name}">学习日志</span>
+                                <div class="ui basic teal left pointing label" th:text="${#arrays.length(type.blogs)}">13</div>
+                            </a>
+                            <!--/*-->
                             <a href="#" class="item">
                                 学习日志
                                 <div class="ui basic teal left pointing label">13</div>
@@ -294,10 +302,7 @@
                                 学习日志
                                 <div class="ui basic teal left pointing label">13</div>
                             </a>
-                            <a href="#" class="item">
-                                学习日志
-                                <div class="ui basic teal left pointing label">13</div>
-                            </a>
+                            <!--*/-->
                         </div>
                     </div>
                 </div>
@@ -314,7 +319,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ui teal segment">
+                    <div class="ui teal segment" >
+                        <a href="#" target="_blank" class="ui teal basic label m-margin-tb-tiny" th:each="tag : ${tags}">
+                            <span th:text="${tag.name}">方法论</span>
+                            <div class="detail" th:text="${#arrays.length(tag.blogs)}">23</div>
+                        </a>
+                        <!--/*-->
                         <a href="#" target="_blank" class="ui teal basic label m-margin-tb-tiny">
                             方法论 <div class="detail">23</div>
                         </a>
@@ -342,22 +352,19 @@
                         <a href="#" target="_blank" class="ui teal basic label m-margin-tb-tiny">
                             方法论 <div class="detail">23</div>
                         </a>
-                        <a href="#" target="_blank" class="ui teal basic label m-margin-tb-tiny">
-                            方法论 <div class="detail">23</div>
-                        </a>
-
-
+                        <!--*/-->
                     </div>
                 </div>
 
                 <!--最新推荐-->
                 <div class="ui segments m-margin-top-large">
-                    <div class="ui  secondary  segment">
+                    <div class="ui  secondary  segment" >
                         <i class="bookmark icon"></i>最新推荐
                     </div>
-                    <div class="ui teal segment">
-                        <a href="#" target="_blank" class="m-black m-text-thin">用户推荐</a>
+                    <div class="ui teal segment" th:each="blog : ${recommendBlogs}">
+                        <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black m-text-thin" th:text="${blog.title}">用户推荐</a>
                     </div>
+                    <!--/*-->
                     <div class="ui segment">
                         <a href="#" target="_blank" class="m-black m-text-thin">用户推荐</a>
                     </div>
@@ -370,6 +377,7 @@
                     <div class="ui segment">
                         <a href="#" target="_blank" class="m-black m-text-thin">用户推荐</a>
                     </div>
+                    <!--*/-->
                 </div>
 
                 <!--二维码-->
@@ -391,7 +399,7 @@
 </footer>
 
 <!--script-->
-<th:block th:replace="_fragment :: script">
+<th:block th:replace="_fragments :: script">
 
 </th:block>
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title})">
+    <title>归档</title>
+</head>
+<body>
+<!--导航-->
+<nav th:replace="_fragments :: menu(4)" class="ui inverted attached segment m-padded-tb-mini">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class=" fire icon "></i> 首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class=" tasks icon "></i> 分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class=" tags icon"></i> 标签</a>
+            <a href="#" class="active m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+
+</nav>
+
+<!--中间内容-->
+<div class="ui m-container-small m-margin-top-large">
+    <div class="ui top attached segment">
+        <div class="ui middle two column grid">
+            <div class="column">
+                <h3 class="ui teal header">归档</h3>
+            </div>
+            <div class="column right aligned m-text-spaced-massive">
+                共<h3 class="ui orange header m-inline-block" th:text="${blogCount}">134</h3>篇
+            </div>
+        </div>
+    </div>
+    <th:block th:each="item : ${archiveMap}">
+        <h2 class="ui center aligned header" th:text="${item.key}">2020</h2>
+        <div class="ui fluid vertical menu">
+            <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" class="item" th:each="blog : ${item.value}">
+                <span>
+                    <i class="teal circle icon" ></i><span th:text="${blog.title}">我在那一角落患过伤风</span>
+                    <div class="ui label basic teal left pointing m-padded-mini mini"
+                         th:text="${#dates.format(blog.updateTime,'MMMdd')}">9月03
+                    </div>
+                </span>
+                <div class="ui label basic orange m-padded-mini" th:text="${blog.flag}">原创</div>
+            </a>
+        </div>
+    </th:block>
+
+
+</div>
+<br>
+<br>
+<br>
+<!--尾部-->
+<footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive">
+
+</footer>
+
+
+<th:block th:replace="_fragments :: script">
+
+</th:block>
+
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide')
+    });
+</script>
+
+</body>
+</html>

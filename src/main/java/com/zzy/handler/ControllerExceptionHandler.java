@@ -17,12 +17,10 @@ public class ControllerExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ModelAndView exceptionHandler(HttpServletRequest request, Exception e) throws Exception {
-        logger.error("request url : {},e :{}", request.getRequestURI(), e.getMessage());
+        logger.error("request url : {},e :{}", request.getRequestURI(), e.getStackTrace());
 
         if (AnnotationUtils.findAnnotation(e.getClass(), ResponseStatus.class) != null) {
             throw e;
-        } else {
-            System.out.println("kkk ");
         }
 
         ModelAndView modelAndView = new ModelAndView();

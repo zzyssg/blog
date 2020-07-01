@@ -12,16 +12,20 @@ public class Blog {
     @Id
     @GeneratedValue
     private Long id;
+
     private String title;
     private String content;
     private String firstPicture;
     private String flag;
     private Integer views;
-    private Boolean appreciation;
-    private Boolean shareStatement;
-    private Boolean commentabled;
-    private Boolean published;
-    private Boolean recommend;
+    private boolean appreciation;
+    private boolean shareStatement;
+    private boolean commentabled;
+    private boolean published;
+    private boolean recommend;
+
+    private String description;
+
 
     @ManyToOne
     private Type type;
@@ -39,6 +43,25 @@ public class Blog {
     private Date createTime;
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateTime;
+
+    @Transient
+    private String tagIds;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getTagIds() {
+        return tagIds;
+    }
+
+    public void setTagIds(String tagIds) {
+        this.tagIds = tagIds;
+    }
 
     public Blog() {
     }
@@ -91,43 +114,43 @@ public class Blog {
         this.views = views;
     }
 
-    public Boolean getAppreciation() {
+    public boolean isAppreciation() {
         return appreciation;
     }
 
-    public void setAppreciation(Boolean appreciation) {
+    public void setAppreciation(boolean appreciation) {
         this.appreciation = appreciation;
     }
 
-    public Boolean getShareStatement() {
+    public boolean isShareStatement() {
         return shareStatement;
     }
 
-    public void setShareStatement(Boolean shareStatement) {
+    public void setShareStatement(boolean shareStatement) {
         this.shareStatement = shareStatement;
     }
 
-    public Boolean getCommentabled() {
+    public boolean isCommentabled() {
         return commentabled;
     }
 
-    public void setCommentabled(Boolean commentabled) {
+    public void setCommentabled(boolean commentabled) {
         this.commentabled = commentabled;
     }
 
-    public Boolean getPublished() {
+    public boolean isPublished() {
         return published;
     }
 
-    public void setPublished(Boolean published) {
+    public void setPublished(boolean published) {
         this.published = published;
     }
 
-    public Boolean getRecommend() {
+    public boolean isRecommend() {
         return recommend;
     }
 
-    public void setRecommend(Boolean recommend) {
+    public void setRecommend(boolean recommend) {
         this.recommend = recommend;
     }
 
@@ -179,6 +202,62 @@ public class Blog {
         this.comments = comments;
     }
 
+    public void init(){
+        this.tagIds = this.getTagIds(this.getTags());
+    }
+
+    //标签name转为标签id， 2,3,4等
+    private String getTagIds(List<Tag> tags){
+        if (!tags.isEmpty()) {
+//            StringBuilder sb = new StringBuilder();
+//            for (Tag tag : tags) {
+//                sb.append(tag).append(',');
+//            }
+//            sb.deleteCharAt(sb.length() - 1);
+//            return sb.toString();
+            StringBuffer ids = new StringBuffer();
+            boolean flag = false;
+            for (Tag tag : tags) {
+                if (flag) {
+                    ids.append(',');
+                } else {
+                    flag = true;
+                }
+                ids.append(tag.getId());
+            }
+            return ids.toString();
+        } else {
+            return tagIds;
+        }
+
+    }
+
+
+//    @Override
+//    public String toString() {
+//        return "Blog{" +
+//                "id=" + id +
+//                ", title='" + title + '\'' +
+//                ", content='" + content + '\'' +
+//                ", firstPicture='" + firstPicture + '\'' +
+//                ", flag='" + flag + '\'' +
+//                ", views=" + views +
+//                ", appreciation=" + appreciation +
+//                ", shareStatement=" + shareStatement +
+//                ", commentabled=" + commentabled +
+//                ", published=" + published +
+//                ", recommend=" + recommend +
+//                ", description='" + description + '\'' +
+//                ", type=" + type +
+//                ", tags=" + tags +
+//                ", user=" + user +
+//                ", comments=" + comments +
+//                ", createTime=" + createTime +
+//                ", updateTime=" + updateTime +
+//                ", tagIds='" + tagIds + '\'' +
+//                '}';
+//    }
+
     @Override
     public String toString() {
         return "Blog{" +
@@ -193,9 +272,14 @@ public class Blog {
                 ", commentabled=" + commentabled +
                 ", published=" + published +
                 ", recommend=" + recommend +
+                ", description='" + description + '\'' +
                 ", type=" + type +
+                ", tags=" + tags +
+                ", user=" + user +
+                ", comments=" + comments +
                 ", createTime=" + createTime +
                 ", updateTime=" + updateTime +
+                ", tagIds='" + tagIds + '\'' +
                 '}';
     }
 }
